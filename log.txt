@@ -10860,3 +10860,360 @@
 2020-08-05 05:03:36,441 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 05:03:36] "[37mPOST /po_template HTTP/1.1[0m" 200 -
 2020-08-05 05:06:42,495 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 05:06:42] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
 2020-08-05 05:06:42,791 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 05:06:42] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-08-05 22:03:00,330 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 22:03:00,331 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:03:02,970 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:03:02,971 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:03:49,161 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:03:49] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 22:14:11,870 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 22:14:11,873 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:14:12,725 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:14:12,743 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:15:01,846 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:15:01] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 22:15:11,169 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:15:11] "[37mGET /query_entry_no?entryNumber=dww HTTP/1.1[0m" 200 -
+2020-08-05 22:15:35,564 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:15:35] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 22:25:56,374 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 22:25:56,696 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:25:58,541 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:25:58,544 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:28:20,471 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 22:28:20,601 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:28:21,637 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:28:21,638 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:29:04,239 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 22:29:04,385 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:29:05,327 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:29:05,327 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:29:15,484 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 22:29:15,614 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:29:16,597 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:29:16,598 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:31:38,674 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 22:31:38,794 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:31:39,716 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:31:39,716 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:31:46,846 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-05 22:31:46,978 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:31:47,946 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:31:47,946 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:33:24,283 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-05 22:33:24,391 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:40:48,627 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 22:40:48,628 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:40:49,523 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:40:49,524 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:49:14,816 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 22:49:14,819 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:49:15,984 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:49:15,996 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:50:34,174 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:50:34] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 22:50:52,482 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:50:52] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 22:51:41,822 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-05 22:51:42,187 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:51:44,052 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:51:44,057 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:51:50,357 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 22:51:50,361 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 22:51:51,576 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 22:51:51,578 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 22:51:53,512 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:51:53] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 22:56:25,209 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 22:56:25] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 23:03:26,336 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:03:26] "[37mGET /query_entry_no?entryNumber=D2007310312 HTTP/1.1[0m" 200 -
+2020-08-05 23:03:33,584 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:03:33] "[37mGET /query_entry_no?entryNumber=D200731 HTTP/1.1[0m" 200 -
+2020-08-05 23:03:38,046 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:03:38] "[37mGET /query_entry_no?entryNumber=D2007310312 HTTP/1.1[0m" 200 -
+2020-08-05 23:03:45,439 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:03:45] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:04:57,606 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:04:57] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:05:12,855 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:05:12] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:05:15,506 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:05:15] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:05:45,590 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:05:45] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:05:49,201 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:05:49] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:06:09,657 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:06:09] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:06:44,192 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:06:44] "[37mGET /query_entry_no?entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-05 23:07:00,843 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:07:00] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-05 23:07:00,862 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:07:00] "[35m[1mPOST /print_label HTTP/1.1[0m" 500 -
+2020-08-05 23:07:34,833 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 23:07:35,366 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 23:07:37,082 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 23:07:37,087 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 23:08:21,738 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 23:08:22,019 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 23:08:23,673 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 23:08:23,676 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 23:09:47,412 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-05 23:09:47,413 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 23:09:48,284 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 23:09:48,290 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 23:09:52,364 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-05 23:09:52,521 :: _log :: INFO ::  * Restarting with stat
+2020-08-05 23:09:54,016 :: _log :: WARNING ::  * Debugger is active!
+2020-08-05 23:09:54,021 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-05 23:10:12,841 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:10:12] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-05 23:10:12,871 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:10:12] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-05 23:15:21,452 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:15:21] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 23:34:58,936 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:34:58] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-05 23:40:56,600 :: _log :: INFO :: 10.160.31.173 - - [05/Aug/2020 23:40:56] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200731031 HTTP/1.1[0m" 200 -
+2020-08-06 00:41:12,578 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-06 00:41:12,985 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 00:50:31,186 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 00:50:31,190 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 00:50:32,669 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 00:50:32,678 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 00:53:21,327 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:21] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 00:53:28,195 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:28] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 00:53:35,519 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:35] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:53:36,172 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:36] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:53:40,064 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:40] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 00:53:41,067 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:41] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:41,452 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:41] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:42,055 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:42] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:42,604 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:42] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:43,638 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:43] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:45,747 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:45] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008040 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:46,510 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:46] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080401 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:50,834 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:50] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008040 HTTP/1.1[0m" 200 -
+2020-08-06 00:53:55,711 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:53:55] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080402 HTTP/1.1[0m" 200 -
+2020-08-06 00:54:19,342 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:54:19] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:54:40,849 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:54:40] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 00:54:51,920 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:54:51] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804034 HTTP/1.1[0m" 200 -
+2020-08-06 00:54:54,673 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:54:54] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804034 HTTP/1.1[0m" 200 -
+2020-08-06 00:54:57,235 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:54:57] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804034 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:00,097 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:00] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804034 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:01,666 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:05,717 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:05] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:14,852 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:14] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804026 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:19,182 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:19] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804026 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:21,886 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:21] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:23,827 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:23] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 00:55:27,135 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:27] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:28,367 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:28] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 00:55:32,008 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:32] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:33,401 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:33] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:55:39,037 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:39] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804029 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:44,660 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:44] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804029 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:47,192 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:47] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080402 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:50,538 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:50] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804028 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:53,180 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:53] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080402 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:53,512 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:53] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804021 HTTP/1.1[0m" 200 -
+2020-08-06 00:55:54,840 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:55:54] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804021 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:01,790 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804021 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:02,236 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:02] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080402 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:02,715 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:02] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008040 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:05,050 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:05] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:07,886 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:07] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:14,985 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:14] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 00:56:21,911 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:21] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 00:56:43,380 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:43] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804030 HTTP/1.1[0m" 200 -
+2020-08-06 00:56:48,194 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:56:48] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804020 HTTP/1.1[0m" 200 -
+2020-08-06 00:57:08,307 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:57:08] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804020 HTTP/1.1[0m" 200 -
+2020-08-06 00:57:09,894 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:57:09] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:57:16,464 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:57:16] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 00:57:24,918 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:57:24] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804026 HTTP/1.1[0m" 200 -
+2020-08-06 00:58:21,053 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 00:58:21] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804026 HTTP/1.1[0m" 200 -
+2020-08-06 01:01:25,134 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:25] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:01:36,119 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:36] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:01:51,919 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:51] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804029 HTTP/1.1[0m" 200 -
+2020-08-06 01:01:55,828 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:55] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804029 HTTP/1.1[0m" 200 -
+2020-08-06 01:01:57,152 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:57] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:01:57,906 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:57] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2 HTTP/1.1[0m" 200 -
+2020-08-06 01:01:58,531 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:58] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200 HTTP/1.1[0m" 200 -
+2020-08-06 01:01:59,508 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:01:59] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2007 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:01,064 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:01,718 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:13,493 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:13] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:19,520 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:19] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:21,856 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:21] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:23,777 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:23] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:25,323 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:25] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:28,070 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:28] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:29,093 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:29] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:32,146 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:32] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080402 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:38,147 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:38] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804025 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:41,246 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:41] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:02:42,236 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:42] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:02:43,492 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:43] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 01:02:52,233 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:52] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:02:53,988 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:53] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:02:57,865 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:02:57] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 01:03:29,338 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:03:29] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-06T05:22:35.855Z&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 01:04:16,372 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:04:16] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-06T05:22:35.855Z&entryNumber=D200804014 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:21,318 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:21] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:05:24,942 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:24] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804020 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:28,575 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:28] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804020 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:31,361 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:31] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008040 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:32,372 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:32] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804019 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:34,547 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:34] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804019 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:37,327 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:37] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804 HTTP/1.1[0m" 200 -
+2020-08-06 01:05:56,262 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:56] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:05:57,095 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:57] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:05:59,541 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:05:59] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804019 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:01,202 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804019 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:02,302 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:02] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2008040 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:04,909 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:04] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D20080401 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:15,282 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:15] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:06:22,048 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:22] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804019 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:24,047 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:24] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:06:26,125 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:26] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:06:27,444 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:27] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D1 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:28,502 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:28] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D18 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:31,845 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:31] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D18 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:35,857 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:35] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:06:40,705 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:40] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D200804036 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:41,613 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:41] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:06:43,581 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:43] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:06:46,376 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:46] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:06:48,672 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:48] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:06:50,512 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:50] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D1 HTTP/1.1[0m" 200 -
+2020-08-06 01:06:53,479 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:06:53] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D1 HTTP/1.1[0m" 200 -
+2020-08-06 01:07:01,178 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:07:01] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D1 HTTP/1.1[0m" 200 -
+2020-08-06 01:07:04,431 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:07:04] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:07:05,940 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:07:05] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=D2 HTTP/1.1[0m" 200 -
+2020-08-06 01:07:07,551 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:07:07] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:08:49,852 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:08:49] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:09:29,250 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:09:29] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=D&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:09:56,735 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:09:56] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&endDate=2020-08-05T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:10:03,139 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:10:03] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:10:08,558 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:10:08] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:10:10,713 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:10:10] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:10:12,731 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:10:12] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:10:16,487 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:10:16] "[37mGET /query_entry_no?startDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:11:25,193 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:11:25] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:12:05,819 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:12:05] "[37mGET /query_entry_no?startDate=2020-07-31T16:00:00.000Z&endDate=2020-08-01T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:12:21,027 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:12:21] "[37mGET /query_entry_no?startDate=2020-07-31T16:00:00.000Z&endDate=2020-08-01T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:12:32,083 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:12:32] "[37mGET /query_entry_no?startDate=2020-07-31T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:13:08,953 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:13:08] "[37mGET /query_entry_no?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:16:19,887 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:16:19] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-03T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:16:34,076 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:16:34] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-07-28T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:16:45,751 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:16:45] "[37mGET /query_entry_no?startDate=2020-08-06T05:34:51.709Z&endDate=2020-08-06T05:34:53.113Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:16:49,937 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:16:49] "[37mGET /query_entry_no?startDate=2020-08-06T05:34:51.709Z&endDate=2020-08-06T05:34:53.113Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:17:00,192 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:17:00] "[37mGET /query_entry_no?startDate=2020-08-06T05:34:51.709Z&endDate=2020-08-06T05:34:53.113Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:17:06,223 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:17:06] "[37mGET /query_entry_no?startDate=2020-08-06T05:34:51.709Z&endDate=2020-08-06T05:34:53.113Z&entryNumber=D200804023 HTTP/1.1[0m" 200 -
+2020-08-06 01:19:07,133 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-06 01:21:28,127 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 01:21:28,185 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 01:21:33,371 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 01:21:33,413 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 01:21:44,322 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:21:44] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:22:03,584 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:22:03] "[35m[1mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-05T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 500 -
+2020-08-06 01:23:26,146 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 01:23:26,667 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 01:23:30,095 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 01:23:30,096 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 01:23:31,515 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 01:23:31,519 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 01:23:32,752 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:23:32] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-05T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:28:12,182 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:28:12] "[37mGET /query_entry_no?startDate=2020-08-04T16:00:00.000Z&endDate=2020-08-05T16:00:00.000Z&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:32:07,073 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:32:07] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:32:13,319 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:32:13] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:35:46,933 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 01:35:47,488 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 01:35:51,622 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 01:35:51,624 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 01:35:53,041 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 01:35:53,050 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 01:35:53,178 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:35:53] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:36:12,629 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:36:12] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:39:52,293 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:39:52] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:39:57,877 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:39:57] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:39:59,811 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:39:59] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:00,704 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:00] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:40:04,551 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:04] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:40:07,101 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:07] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:09,951 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:09] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:10,616 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:10] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:40:14,049 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:14] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:40:23,373 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:23] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806002 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:26,364 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:26] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806002 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:28,420 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:28] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806003 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:29,883 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:29] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806003 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:31,510 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:31] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806003 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:32,512 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:32] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:45,645 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:45] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806005 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:46,015 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:46] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:48,933 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:48] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:40:51,856 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:40:51] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:41:00,022 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:41:00] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:42:26,425 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:42:26] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:42:45,293 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:42:45] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:42:50,669 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:42:50] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:42:54,120 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:42:54] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:42:58,012 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:42:58] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:03,793 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:03] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:06,614 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:06] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:07,994 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:07] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:09,706 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:09] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:13,673 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:13] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:15,827 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:15] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:16,779 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:16] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:19,690 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:19] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:21,196 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:21] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:22,233 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:22] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:23,009 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:23] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:23,528 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:23] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806002 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:24,834 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:24] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806002 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:25,883 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:25] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806002 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:26,302 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:26] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:27,359 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:27] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806004 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:29,181 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:29] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806004 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:32,431 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:32] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:32,998 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:32] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806005 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:34,529 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:34] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806005 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:37,278 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:37] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806005 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:37,837 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:37] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:38,546 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:38] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806008 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:39,823 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:39] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806008 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:42,417 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:42] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806008 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:43,063 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:43] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:43,578 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:43] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:45,162 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:45] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:45,619 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:45] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806009 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:47,684 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:47] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:49,605 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:49] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:51,233 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:51] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:51,585 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:51] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:43:53,410 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:43:53] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:03,248 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:03] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806006 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:05,033 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:05] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D20080600 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:07,926 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:07] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 01:44:07,939 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:07] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 01:44:13,619 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:13] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200806001 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:14,672 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:14] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:44:20,805 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:20] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:44:29,476 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:29] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D1 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:32,083 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:32] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D2 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:36,616 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:36] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:44:38,551 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:38] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D HTTP/1.1[0m" 200 -
+2020-08-06 01:44:40,152 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:40] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D2 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:40,777 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:40] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:44:48,801 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:48] "[37mGET /query_entry_no?startDate=2020-08-06&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:44:56,583 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:56] "[37mGET /query_entry_no?startDate=2020-08-04&endDate=2020-08-07&entryNumber=D200806007 HTTP/1.1[0m" 200 -
+2020-08-06 01:44:56,701 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:56] "[37mGET /query_entry_no?startDate=2020-08-04&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:44:58,288 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:44:58] "[37mGET /query_entry_no?startDate=2020-08-04&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:45:03,776 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:45:03] "[37mGET /query_entry_data?startDate=2020-08-04&endDate=2020-08-07&entryNumber=D200804037 HTTP/1.1[0m" 200 -
+2020-08-06 01:45:06,739 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:45:06] "[37mGET /query_entry_no?startDate=2020-08-04&endDate=2020-08-07&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:47:30,443 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:30] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:47:34,015 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:34] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:35,756 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:35] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:37,932 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:37] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:41,964 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:41] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805002 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:50,323 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:50] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805002 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:52,622 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:52] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:47:54,510 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:47:54] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805003 HTTP/1.1[0m" 200 -
+2020-08-06 01:50:44,059 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:50:44] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:50:48,612 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:50:48] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:50:50,609 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:50:50] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:50:51,629 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:50:51] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 01:50:53,488 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:50:53] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805002 HTTP/1.1[0m" 200 -
+2020-08-06 01:51:47,982 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:51:47] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 01:51:55,585 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:51:55] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 01:52:03,254 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:03] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805002 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:14,034 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:14] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805002 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:17,107 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:17] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:18,392 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:18] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805003 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:19,808 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:19] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805003 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:23,991 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:23] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805003 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:24,605 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:24] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:26,565 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:26] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:37,815 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:37] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D20080500 HTTP/1.1[0m" 200 -
+2020-08-06 01:52:38,894 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:38] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:53:00,309 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:53:00] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:53:02,636 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:53:02] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
