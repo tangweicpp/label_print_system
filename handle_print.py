@@ -101,10 +101,47 @@ def get_entry_data(po_query, ret_info):
 
 
 # Print label
-def print_label(sel_data, ret_info):
+def print_handle(sel_data, ret_info):
+    if not sel_data:
+        ret_info['ret_desc'] = "没有数据"
+        ret_info['ret_code'] = 201
+        print("没有数据")
+        return False
+
     for row in sel_data:
         print(row)
+        lot_list = get_print_lot(row)
+
+        for pce_id in lot_list:
+            label_content = f'''"ITEM","{row['part_no']}";"INVENTORY_ID","{pce_id}"'''
+            print_label(label_content, sel_data['entry_no'])
 
     ret_info['ret_desc'] = "标签打印成功"
     ret_info['ret_code'] = 200
     return True
+
+
+def print_label(label_content, entry_no):
+    sql = f''' insert into erpdata.dbo.tblME_PrintInfo(PrinterNameID,BartenderName,Content,Flag,Createdate,EVENT_SOURCE,EVENT_ID,LABEL_ID,PRINT_QTY) 
+               values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{entry_no}','1')"
+           '''
+    print(sql)
+    # conn.MssConn.exec(sql)
+
+
+def get_print_lot(row):
+    inventory_lot = row['part_no'] + '_' + row['lot_id']
+    print_list = []
+    for i in range(row['lbl_printing_qty']):
+        sql = f"select nvl(max(max_id) + 1, 1) from TBL_MATERIAL_SEQ_ID  WHERE inventory_lot = '{inventory_lot}'"
+        ret = conn.OracleConn.query(sql)
+        if ret == '1':
+            conn.OracleConn.exec(
+                f"insert into TBL_MATERIAL_SEQ_ID(INVENTORY_LOT,MAX_ID) values('{inventory_lot}',1)")
+        else:
+            conn.OracleConn.exec(
+                f"update TBL_MATERIAL_SEQ_ID set MAX_ID = {ret} where INVENTORY_LOT = '{inventory_lot}''")
+
+        print_list.append(inventory_lot + ('0000' + str(ret))[-4:])
+
+    return print_list

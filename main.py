@@ -137,11 +137,8 @@ def r_print_label():
     if request.method == 'POST':
         sel_data = json.loads(request.get_data(as_text=True))
         ret_info = {}
-        ret = hpt.print_label(sel_data, ret_info)
-        if not ret:
-            return make_response(jsonify(ret_info))
-        else:
-            return make_response(jsonify(ret_info))
+        hpt.print_handle(sel_data, ret_info)
+        return make_response(jsonify(ret_info))
 
 
 # Run server

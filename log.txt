@@ -11217,3 +11217,61 @@
 2020-08-06 01:52:38,894 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:52:38] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
 2020-08-06 01:53:00,309 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:53:00] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
 2020-08-06 01:53:02,636 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:53:02] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 01:59:50,874 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 01:59:50] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:16:52,326 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:16:52] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:19:07,200 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:19:07] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:19:11,901 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:19:11] "[37mGET /query_entry_data?startDate=&endDate=&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 02:19:58,192 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:19:58] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 02:20:00,570 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:00] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 02:20:02,296 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:02] "[37mGET /query_entry_data?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D200801003 HTTP/1.1[0m" 200 -
+2020-08-06 02:20:04,617 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:04] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D200801003 HTTP/1.1[0m" 200 -
+2020-08-06 02:20:05,018 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:05] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 02:20:07,497 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:07] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber= HTTP/1.1[0m" 200 -
+2020-08-06 02:20:09,160 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:09] "[37mGET /query_entry_data?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D200801006 HTTP/1.1[0m" 200 -
+2020-08-06 02:20:33,638 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:33] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D200801006 HTTP/1.1[0m" 200 -
+2020-08-06 02:20:36,166 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:36] "[37mGET /query_entry_no?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D20080100 HTTP/1.1[0m" 200 -
+2020-08-06 02:20:40,585 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:20:40] "[37mGET /query_entry_data?startDate=2020-08-01&endDate=2020-08-02&entryNumber=D200801008 HTTP/1.1[0m" 200 -
+2020-08-06 02:21:15,384 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:21:15] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:21:15,396 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:21:15] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:22:24,367 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 02:22:28,691 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 02:22:35,179 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 02:22:35,204 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 02:23:21,947 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-06 02:23:22,324 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 02:23:23,937 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 02:23:23,940 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 02:23:28,000 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-06 02:23:28,206 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 02:23:30,446 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 02:23:30,449 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 02:24:11,058 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 02:24:11,301 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 02:24:18,029 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 02:24:18,033 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 02:24:20,486 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 02:24:20,507 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 02:24:23,052 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:24:23] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:24:23,074 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:24:23] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:25:33,404 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:25:33] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:25:37,561 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:25:37] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:25:37,569 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:25:37] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:25:51,018 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:25:51] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:25:51,028 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:25:51] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:27:10,407 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:27:10] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:27:10,420 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:27:10] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:32:29,801 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:32:29] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:32:29,830 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:32:29] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 02:32:35,601 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:32:35] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:32:35,611 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:32:35] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:32:37,674 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:32:37] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:35:51,187 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:35:51] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 02:35:52,606 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:35:52] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 02:35:55,455 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:35:55] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:35:55,484 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 02:35:55] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 02:39:18,539 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 02:39:19,858 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:52:30,383 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 03:52:30,441 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:52:33,659 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 03:52:33,722 :: _log :: INFO ::  * Debugger PIN: 100-935-414
