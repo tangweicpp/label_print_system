@@ -66,7 +66,7 @@ def get_entry_data(po_query, ret_info):
     # By 到货单
     sql = f'''
         select t2.F_101 as 料号, t2.FName as 物料名称,t1.到货批号, t1.到货数量 as 总数量, t3.单位,t1.到货数量 / t3.单位 as 标签数量,'' as 已打印标签数量,
-        t1.到货数量 / t3.单位 as 剩余打印数量, '' as 本次打印数量 from erpbase..tblToRecEntry t1
+        t1.到货数量 / t3.单位 as 剩余打印数量, '' as 本次打印数量,t1.有效期至 from erpbase..tblToRecEntry t1
         inner join AIS20141114094336.dbo.t_ICItem  t2 on t2.FNumber = t1.物料编号
         left join erpbase.dbo.unitlist t3 on t3.料号 = t2.F_101 
         where t1.到货单编号 = '{po_query['entry_number']}' and substring(t2.F_101,1,2) <> '60'
@@ -89,6 +89,7 @@ def get_entry_data(po_query, ret_info):
         result['lbl_printed_qty'] = xstr(row[6])
         result['lbl_non_printed_qty'] = xstr(row[7])
         result['lbl_printing_qty'] = xstr(row[8])
+        result['lbl_term'] = xstr(row[9])
         result['lbl_print_again_qty'] = ''
 
         if not result['unit_qty']:
@@ -122,24 +123,28 @@ def print_handle(sel_data, ret_info):
         for pce_id in lot_list:
             label_content = f'''"ITEM","{row['part_no']}";"INVENTORY_ID","{pce_id}"'''
 
-            print_label(label_content, row['entry_no'])
+            print_label(label_content, row, pce_id)
 
     ret_info['ret_desc'] = "标签打印成功"
     ret_info['ret_code'] = 200
     return True
 
 
-def print_label(label_content, entry_no):
+def print_label(label_content, row, pce_id):
     sql = f''' insert into erpdata.dbo.tblME_PrintInfo(PrinterNameID,BartenderName,Content,Flag,Createdate,EVENT_SOURCE,EVENT_ID,LABEL_ID,PRINT_QTY) 
-               values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{entry_no}','1')
+               values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{row['entry_no']}','1')
            '''
     print(sql)
     # conn.MssConn.exec(sql)
 
     # insert to mes
-    sql = f''' insert into 
+    sql = f'''insert into ERPBASE..TblERPFLToME(STOCK_TYPE,STOCK_ID,PRD_ID,PRD_VER,QTY,PRD_DATE,EFF_DATE,flag,CreateDate,FStauts)
+            values('M','{pce_id}','{row['part_no']}','A','{row['unit_qty']}','2017-12-08','{row['lbl_term']}',0,getdate(),0)
+        '''
 
-    '''
+    print(sql)
+
+    # conn.MssConn.exec(sql)
 
 
 def get_print_lot(row):
