@@ -33,7 +33,10 @@ def xstr(s):
 def get_entry_no(po_query, ret_info):
     json_data = []
 
-    sql = f"SELECT distinct 到货单编号 FROM erpbase..tblToRec where 收货日期 < '{po_query['end_date']}' and 收货日期 > '{po_query['start_date']}' order by 到货单编号 "
+    sql = f'''SELECT distinct t1.到货单编号 FROM erpbase..tblToRec t1 inner join erpbase..tblToRecEntry t2 
+    on t1.到货单编号 = t2.到货单编号 where t1.收货日期 < '{po_query['end_date']}' and t1.收货日期 > '{po_query['start_date']}' 
+    and t2.物料编号 not like '01.01.01%'  order by t1.到货单编号 '''
+
     results = conn.MssConn.query(sql)
     for row in results:
         result = {}
@@ -66,7 +69,7 @@ def get_entry_data(po_query, ret_info):
         t1.到货数量 / t3.单位 as 剩余打印数量, '' as 本次打印数量 from erpbase..tblToRecEntry t1
         inner join AIS20141114094336.dbo.t_ICItem  t2 on t2.FNumber = t1.物料编号
         left join erpbase.dbo.unitlist t3 on t3.料号 = t2.F_101 
-        where t1.到货单编号 = '{po_query['entry_number']}'
+        where t1.到货单编号 = '{po_query['entry_number']}' and substring(t2.F_101,1,2) <> '60'
     '''
 
     results = conn.MssConn.query(sql)
@@ -86,10 +89,13 @@ def get_entry_data(po_query, ret_info):
         result['lbl_printed_qty'] = xstr(row[6])
         result['lbl_non_printed_qty'] = xstr(row[7])
         result['lbl_printing_qty'] = xstr(row[8])
+        result['lbl_print_again_qty'] = ''
 
         if not result['unit_qty']:
             ret_info['ret_desc'] = f"物料：{result['part_name']}  料号：{result['part_no']} 没有维护单位数量，请先维护好，否则无法打印标签"
             ret_info['ret_code'] = 201
+            ret_info['ret_part_name'] = result['part_name']
+            ret_info['ret_part_no'] = result['part_no']
             return False
 
         json_data.append(result)
@@ -125,10 +131,15 @@ def print_handle(sel_data, ret_info):
 
 def print_label(label_content, entry_no):
     sql = f''' insert into erpdata.dbo.tblME_PrintInfo(PrinterNameID,BartenderName,Content,Flag,Createdate,EVENT_SOURCE,EVENT_ID,LABEL_ID,PRINT_QTY) 
-               values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{entry_no}','1')"
+               values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{entry_no}','1')
            '''
     print(sql)
     # conn.MssConn.exec(sql)
+
+    # insert to mes
+    sql = f''' insert into 
+
+    '''
 
 
 def get_print_lot(row):
@@ -147,3 +158,11 @@ def get_print_lot(row):
         print_list.append(inventory_lot + ('00000' + str(ret))[-5:])
 
     return print_list
+
+
+def set_unit_qty(sel_data, ret_info):
+    sql = f"insert into erpbase.dbo.unitlist(料号,单位) values('{sel_data['partID']}','{sel_data['unitQty']}')"
+    conn.MssConn.exec(sql)
+
+    ret_info['ret_desc'] = "单位用量维护成功"
+    ret_info['ret_code'] = 200

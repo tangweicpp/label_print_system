@@ -119,7 +119,8 @@ def r_query_entry_no():
 def r_query_entry_data():
     if request.method == 'GET':
         po_query = {}
-        ret_info = {}
+        ret_info = {'ret_part_name': '', 'ret_part_no': ''}
+
         po_query['entry_number'] = request.args.get('entryNumber')
 
         ret_data = hpt.get_entry_data(po_query, ret_info)
@@ -136,9 +137,34 @@ def r_query_entry_data():
 def r_print_label():
     if request.method == 'POST':
         sel_data = json.loads(request.get_data(as_text=True))
-        print(sel_data)
+        # print(sel_data)
         ret_info = {}
         hpt.print_handle(sel_data, ret_info)
+        return make_response(jsonify(ret_info))
+
+
+# Print lables
+@app.route('/print_label_again', methods=['GET', 'POST'])
+def r_print_label_again():
+    if request.method == 'POST':
+        sel_data = json.loads(request.get_data(as_text=True))
+        # print(sel_data)
+        ret_info = {}
+        for row in sel_data:
+            row['lbl_printing_qty'] = row['lbl_print_again_qty']
+
+        hpt.print_handle(sel_data, ret_info)
+        return make_response(jsonify(ret_info))
+
+
+# Set unit qty
+@app.route('/set_unit_qty', methods=['GET', 'POST'])
+def r_set_unit_qty():
+    if request.method == 'POST':
+        sel_data = json.loads(request.get_data(as_text=True))
+        print(sel_data)
+        ret_info = {}
+        hpt.set_unit_qty(sel_data, ret_info)
         return make_response(jsonify(ret_info))
 
 
