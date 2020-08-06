@@ -136,6 +136,7 @@ def r_query_entry_data():
 def r_print_label():
     if request.method == 'POST':
         sel_data = json.loads(request.get_data(as_text=True))
+        print(sel_data)
         ret_info = {}
         hpt.print_handle(sel_data, ret_info)
         return make_response(jsonify(ret_info))

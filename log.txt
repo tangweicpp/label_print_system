@@ -11275,3 +11275,191 @@
 2020-08-06 03:52:30,441 :: _log :: INFO ::  * Restarting with stat
 2020-08-06 03:52:33,659 :: _log :: WARNING ::  * Debugger is active!
 2020-08-06 03:52:33,722 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 03:54:08,390 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:54:08] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-08-06 03:54:26,185 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:54:26] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 03:54:29,887 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:54:29] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 03:54:43,777 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:54:43] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 03:54:43,807 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:54:43] "[35m[1mPOST /print_label HTTP/1.1[0m" 500 -
+2020-08-06 03:55:30,392 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 03:55:30,782 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:55:32,974 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 03:55:32,983 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 03:55:36,114 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 03:55:36,115 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:55:37,440 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 03:55:37,458 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 03:55:45,839 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:55:45] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 03:55:54,934 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:55:54] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 03:55:57,084 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:55:57] "[35m[1mPOST /print_label HTTP/1.1[0m" 500 -
+2020-08-06 03:57:38,281 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 03:57:38,758 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:57:41,782 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 03:57:41,785 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:57:42,973 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 03:57:42,985 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 03:57:48,322 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:57:48] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 03:58:04,399 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:58:04] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 03:58:07,111 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:58:07] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 03:59:35,906 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 03:59:35,909 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 03:59:36,929 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 03:59:36,938 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 03:59:45,606 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:59:45] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 03:59:46,169 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 03:59:46] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:00:25,694 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:00:26,136 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:00:29,569 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:00:29,574 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:00:30,981 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:00:30,988 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:00:32,009 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:00:32] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 04:00:35,743 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:00:35] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:00:36,464 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:00:36] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:01:15,744 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:01:16,140 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:01:19,154 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:01:19,158 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:01:20,758 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:01:20,762 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:01:23,249 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:01:23] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:01:24,009 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:01:24] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:01:56,269 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:01:56,455 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:01:58,029 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:01:58,030 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:02:08,213 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:02:08,428 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:02:11,767 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:02:11,773 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:02:13,198 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:02:13,200 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:02:13,923 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:02:13] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:02:14,238 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:02:14] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:02:40,618 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:02:40,752 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:02:41,675 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:02:41,676 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:02:49,797 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:02:50,125 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:02:52,717 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:02:52,717 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:02:53,751 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:02:53,752 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:02:55,675 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:02:55] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:02:55,936 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:02:55] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:03:51,595 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:03:51,759 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:03:53,681 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:03:53,682 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:03:54,758 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:03:54,759 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:03:55,848 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:03:55] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:03:56,103 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:03:56] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:04:19,120 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:04:19,307 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:04:20,107 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:04:20,108 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:04:21,134 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:04:21,274 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:04:22,196 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:04:22,198 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:04:27,675 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:04:27,676 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:04:28,708 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:04:28,708 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:04:31,918 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:04:31] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:04:32,086 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:04:32] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:06:14,155 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:06:14,271 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:06:15,172 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:06:15,175 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:06:33,308 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:06:33] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:06:33,604 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:06:33] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:06:38,632 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:06:38,632 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:06:39,398 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:06:39,399 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:07:38,278 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:07:38,408 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:07:39,229 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:07:39,229 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:07:40,260 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:07:40,406 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:07:41,380 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:07:41,380 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:07:49,519 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:07:49,521 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:07:50,517 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:07:50,518 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:07:56,018 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:07:56] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:07:57,250 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:07:57] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:09:39,049 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:09:39,209 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:09:40,097 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:09:40,098 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:09:42,052 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:09:42,053 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:09:42,949 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:09:42,950 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:09:48,746 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:09:48] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:09:50,055 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:09:50] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:10:30,666 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:10:30,835 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:10:31,976 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:10:31,977 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:10:37,068 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:10:37,249 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:10:40,923 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:10:40,924 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:10:42,045 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:10:42,045 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:10:45,129 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:10:45] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:10:46,198 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:10:46] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:12:20,400 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:12:20,527 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:12:23,175 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:12:23,176 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:12:24,277 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:12:24,278 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:12:25,433 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:12:25] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:12:26,667 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:12:26] "[35m[1mPOST /print_label HTTP/1.1[0m" 500 -
+2020-08-06 04:12:51,682 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:12:51,894 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:12:53,003 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:12:53,003 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:13:16,382 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/main.py', reloading
+2020-08-06 04:13:16,566 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:13:17,723 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:13:17,723 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:13:24,816 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:13:24,817 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:13:25,789 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:13:25,790 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:13:28,956 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:13:28] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:13:29,117 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:13:29] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:18:55,004 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:18:55,478 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:18:57,289 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:18:57,295 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:19:01,586 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:19:01,589 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:19:02,961 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:19:02,979 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:19:23,246 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:19:23] "[37mGET /query_entry_no?startDate=2020-08-05&endDate=2020-08-06&entryNumber=&entryID= HTTP/1.1[0m" 200 -
+2020-08-06 04:19:26,513 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:19:26] "[37mGET /query_entry_data?startDate=2020-08-05&endDate=2020-08-06&entryNumber=D200805001 HTTP/1.1[0m" 200 -
+2020-08-06 04:19:38,215 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:19:38] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:19:38,829 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:19:38] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:20:29,243 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:20:29,772 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:20:31,490 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:20:31,491 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:20:50,323 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:20:50] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:20:50,900 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:20:50] "[37mPOST /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:21:07,097 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
+2020-08-06 04:21:07,291 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:21:10,864 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-06 04:21:10,867 :: _log :: INFO ::  * Restarting with stat
+2020-08-06 04:21:12,127 :: _log :: WARNING ::  * Debugger is active!
+2020-08-06 04:21:12,132 :: _log :: INFO ::  * Debugger PIN: 100-935-414
+2020-08-06 04:21:14,796 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:21:14] "[37mOPTIONS /print_label HTTP/1.1[0m" 200 -
+2020-08-06 04:21:15,112 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 04:21:15] "[37mPOST /print_label HTTP/1.1[0m" 200 -
