@@ -12057,3 +12057,7 @@
 2020-08-06 23:56:06,407 :: _log :: INFO :: 10.160.31.173 - - [06/Aug/2020 23:56:06] "[37mGET /query_entry_data?startDate=2020-08-06&endDate=2020-08-07&entryNumber=D200805009&entryID= HTTP/1.1[0m" 200 -
 2020-08-07 00:00:18,971 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/label_print_system/handle_print.py', reloading
 2020-08-07 00:00:19,710 :: _log :: INFO ::  * Restarting with stat
+2020-08-07 00:03:13,794 :: _log :: INFO ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-08-07 00:03:13,797 :: _log :: INFO ::  * Restarting with stat
+2020-08-07 00:03:14,468 :: _log :: WARNING ::  * Debugger is active!
+2020-08-07 00:03:14,472 :: _log :: INFO ::  * Debugger PIN: 100-935-414

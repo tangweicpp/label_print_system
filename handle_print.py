@@ -136,24 +136,26 @@ def print_handle(sel_data, ret_info, flag):
 
 
 def print_label(label_content, row, pce_id, flag):
+    # insert to print table
     sql = f''' insert into erpdata.dbo.tblME_PrintInfo(PrinterNameID,BartenderName,Content,Flag,Createdate,EVENT_SOURCE,EVENT_ID,LABEL_ID,PRINT_QTY)
                values('HT_ST','MATERIAL.btw','{label_content}','0',GetDate(),'STORE','MATERIAL','{row['entry_no']}','1')
            '''
-    print(sql)
-    # conn.MssConn.exec(sql)
+    # print(sql)
+    conn.MssConn.exec(sql)
 
     # insert to mes
     sql = f'''insert into ERPBASE..TblERPFLToME(STOCK_TYPE,STOCK_ID,PRD_ID,PRD_VER,QTY,PRD_DATE,EFF_DATE,flag,CreateDate,FStauts)
             values('M','{pce_id}','{row['part_no']}','A','{row['unit_qty']}',getdate(),'{row['lbl_term']}',0,getdate(),0)
         '''
 
-    print(sql)
-    # conn.MssConn.exec(sql)
+    # print(sql)
+    conn.MssConn.exec(sql)
 
-    # insert to history
+    # insert to print history
     sql = f'''insert into TBL_MATERIAL_PRINT_HISTORY(PART_ID,PART_NAME,LOT_ID,PCE_ID,PRINTED_DATE,PRINTED_BY,PRINTED_FLAG,REMARK,REASON)
     values('{row['part_no']}','{row['part_name']}','{row['lot_id']}','{pce_id}',sysdate,'{row['user_name']}','{flag}','{row['entry_no']}','{row['print_reason']}')
     '''
+    # print(sql)
     conn.OracleConn.exec(sql)
 
 
