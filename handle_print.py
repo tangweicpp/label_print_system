@@ -130,6 +130,8 @@ def print_handle(sel_data, ret_info, flag):
 
             print_label(label_content, row, pce_id, flag)
 
+        time.sleep(2)
+
     ret_info['ret_desc'] = "标签打印成功"
     ret_info['ret_code'] = 200
     return True
